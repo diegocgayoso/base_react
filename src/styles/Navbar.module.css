@@ -1,0 +1,26 @@
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #444;
+    height: 50px;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    padding: 0 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+
+}
